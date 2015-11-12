@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C21470421BF5108A008C4EB4 /* RNAWSS3Upload.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C21470411BF5108A008C4EB4 /* RNAWSS3Upload.h */; };
+		C21470441BF5108A008C4EB4 /* RNAWSS3Upload.m in Sources */ = {isa = PBXBuildFile; fileRef = C21470431BF5108A008C4EB4 /* RNAWSS3Upload.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C214703C1BF5108A008C4EB4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C21470421BF5108A008C4EB4 /* RNAWSS3Upload.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C214703E1BF5108A008C4EB4 /* libRNAWSS3Upload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAWSS3Upload.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21470411BF5108A008C4EB4 /* RNAWSS3Upload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAWSS3Upload.h; sourceTree = "<group>"; };
+		C21470431BF5108A008C4EB4 /* RNAWSS3Upload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAWSS3Upload.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C214703B1BF5108A008C4EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C21470351BF5108A008C4EB4 = {
+			isa = PBXGroup;
+			children = (
+				C21470401BF5108A008C4EB4 /* RNAWSS3Upload */,
+				C214703F1BF5108A008C4EB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C214703F1BF5108A008C4EB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C214703E1BF5108A008C4EB4 /* libRNAWSS3Upload.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C21470401BF5108A008C4EB4 /* RNAWSS3Upload */ = {
+			isa = PBXGroup;
+			children = (
+				C21470411BF5108A008C4EB4 /* RNAWSS3Upload.h */,
+				C21470431BF5108A008C4EB4 /* RNAWSS3Upload.m */,
+			);
+			path = RNAWSS3Upload;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C214703D1BF5108A008C4EB4 /* RNAWSS3Upload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21470471BF5108A008C4EB4 /* Build configuration list for PBXNativeTarget "RNAWSS3Upload" */;
+			buildPhases = (
+				C214703A1BF5108A008C4EB4 /* Sources */,
+				C214703B1BF5108A008C4EB4 /* Frameworks */,
+				C214703C1BF5108A008C4EB4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNAWSS3Upload;
+			productName = RNAWSS3Upload;
+			productReference = C214703E1BF5108A008C4EB4 /* libRNAWSS3Upload.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C21470361BF5108A008C4EB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = watzak;
+				TargetAttributes = {
+					C214703D1BF5108A008C4EB4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = C21470391BF5108A008C4EB4 /* Build configuration list for PBXProject "RNAWSS3Upload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C21470351BF5108A008C4EB4;
+			productRefGroup = C214703F1BF5108A008C4EB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C214703D1BF5108A008C4EB4 /* RNAWSS3Upload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C214703A1BF5108A008C4EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21470441BF5108A008C4EB4 /* RNAWSS3Upload.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C21470451BF5108A008C4EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C21470461BF5108A008C4EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C21470481BF5108A008C4EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C21470491BF5108A008C4EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C21470391BF5108A008C4EB4 /* Build configuration list for PBXProject "RNAWSS3Upload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21470451BF5108A008C4EB4 /* Debug */,
+				C21470461BF5108A008C4EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21470471BF5108A008C4EB4 /* Build configuration list for PBXNativeTarget "RNAWSS3Upload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21470481BF5108A008C4EB4 /* Debug */,
+				C21470491BF5108A008C4EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C21470361BF5108A008C4EB4 /* Project object */;
+}
