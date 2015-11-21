@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52AE01AF52CD1B6BFFF334FC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A327E5501DACE64E57E512A6 /* libPods.a */; };
 		C21470421BF5108A008C4EB4 /* RNAWSS3Upload.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C21470411BF5108A008C4EB4 /* RNAWSS3Upload.h */; };
 		C21470441BF5108A008C4EB4 /* RNAWSS3Upload.m in Sources */ = {isa = PBXBuildFile; fileRef = C21470431BF5108A008C4EB4 /* RNAWSS3Upload.m */; };
 /* End PBXBuildFile section */
@@ -25,9 +26,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5CBB4A5EC6004F6386628E8A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A327E5501DACE64E57E512A6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB0FB23EE014670FCE60F17 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C214703E1BF5108A008C4EB4 /* libRNAWSS3Upload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAWSS3Upload.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21470411BF5108A008C4EB4 /* RNAWSS3Upload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAWSS3Upload.h; sourceTree = "<group>"; };
 		C21470431BF5108A008C4EB4 /* RNAWSS3Upload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAWSS3Upload.m; sourceTree = "<group>"; };
+		C214704B1BF512A9008C4EB4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AE01AF52CD1B6BFFF334FC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4EAF858226C2FB534B1667B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A327E5501DACE64E57E512A6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C21470351BF5108A008C4EB4 = {
 			isa = PBXGroup;
 			children = (
+				C214704B1BF512A9008C4EB4 /* Podfile */,
 				C21470401BF5108A008C4EB4 /* RNAWSS3Upload */,
 				C214703F1BF5108A008C4EB4 /* Products */,
+				C89F1B9B7845D3C96D81E8CE /* Pods */,
+				B4EAF858226C2FB534B1667B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +83,15 @@
 			path = RNAWSS3Upload;
 			sourceTree = "<group>";
 		};
+		C89F1B9B7845D3C96D81E8CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CBB4A5EC6004F6386628E8A /* Pods.debug.xcconfig */,
+				BCB0FB23EE014670FCE60F17 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -73,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C21470471BF5108A008C4EB4 /* Build configuration list for PBXNativeTarget "RNAWSS3Upload" */;
 			buildPhases = (
+				EDBAAB9185D9FFA772D423DC /* Check Pods Manifest.lock */,
 				C214703A1BF5108A008C4EB4 /* Sources */,
 				C214703B1BF5108A008C4EB4 /* Frameworks */,
 				C214703C1BF5108A008C4EB4 /* CopyFiles */,
+				4E392C406F356144DD50C57E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -116,6 +144,39 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E392C406F356144DD50C57E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDBAAB9185D9FFA772D423DC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C214703A1BF5108A008C4EB4 /* Sources */ = {
@@ -211,7 +272,16 @@
 		};
 		C21470481BF5108A008C4EB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CBB4A5EC6004F6386628E8A /* Pods.debug.xcconfig */;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFAmazonS3Manager\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -220,7 +290,16 @@
 		};
 		C21470491BF5108A008C4EB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB0FB23EE014670FCE60F17 /* Pods.release.xcconfig */;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFAmazonS3Manager\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -246,6 +325,7 @@
 				C21470491BF5108A008C4EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,8 +6,8 @@
 //  Copyright © 2015 watzak. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "RCTBridge.h"
 
-@interface RNAWSS3Upload : NSObject
+@interface RNAWSS3Upload : NSObject <RCTBridgeModule>
 
 @end
