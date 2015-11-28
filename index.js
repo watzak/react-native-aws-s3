@@ -1,7 +1,7 @@
 var {
     NativeModules: {
-        RNAWSS3
+        RNAWSS3Upload
         }
     } = require('react-native');
 
-module.exports = RNAWSS3;
+module.exports = RNAWSS3Upload;
